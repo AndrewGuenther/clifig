@@ -7,15 +7,17 @@ Usage
 Clifig can be accessed directly from the terminal
 
 .. code:: Bash
-$ clifig path/to/config/file.conf
-(file.conf) 
+
+ $ clifig path/to/config/file.conf
+ (file.conf)
 
 of from a Python script
 
 .. code:: Python
->>> from clifig import Clifig
->>> Clifig.run('path/to/config/file.conf')
-(file.conf) 
+
+ >>> from clifig import Clifig
+ >>> Clifig.run('path/to/config/file.conf')
+ (file.conf) 
 
 Commands
 ========
