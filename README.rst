@@ -5,6 +5,7 @@ Clifig provides a very simple CLI for modifying config files.
 Usage
 =====
 Clifig can be accessed directly from the terminal
+
 .. code:: Bash
 $ clifig path/to/config/file.conf
 (file.conf) 

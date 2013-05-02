@@ -1,9 +1,13 @@
 from setuptools import setup
 
+README_file = open('README.rst')
+README = README_file.read()
+README_file.close()
+
 setup(name='clifig',
       version='0.1',
       description='A simple prompt to modify config files.',
-      long_description='A command line utility that wraps a ConfigParser. Pretty simple, but can be useful if you want to "hide" a config file from a user.',
+      long_description=README,
       keywords='ConfigParser command-line cli config configuration conf',
       classifiers=['License :: OSI Approved :: MIT License',
                    'Development Status :: 3 - Alpha',
